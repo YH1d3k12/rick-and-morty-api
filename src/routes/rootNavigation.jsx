@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Body from "../screens/body.jsx";
+import CharacterScreen from "../screens/characterScreen.jsx";
 
 /**
 * Represents the root navigation setup for this application.
@@ -19,6 +20,7 @@ export default function RootNavigation() {
                       	The following components are child screens rendered within the Outlet of the Body component.
                       	These components represent specific views or sections of the application.
                     */}
+					<Route path="/" element={<CharacterScreen />} />
 				</Route>
 			</Routes>
 	  </BrowserRouter>
