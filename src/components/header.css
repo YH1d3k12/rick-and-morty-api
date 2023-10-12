@@ -1,0 +1,9 @@
+:root {
+    --header-background-color: #
+}
+
+.header {
+    padding: 30px 30px 20px 30px;
+    color: white;
+    background-color: rgb(39, 43, 51);
+}

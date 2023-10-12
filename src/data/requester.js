@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const baseURL = "https://tools.texoit.com/backend-java/api/movies/";
+const baseURL = "https://rickandmortyapi.com/api/character";
 
 /**
  * @param {*} method The method which axios will execute "post", "get", "put" or "delete"

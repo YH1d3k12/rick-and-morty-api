@@ -1,0 +1,25 @@
+:root {
+    --character-card-background-color: #272B33;
+    --character-card-text-color: #F0F0F0;
+}
+
+.character-card-content-wrapper {
+    display: flex;
+}
+
+.character-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 400px;
+    width: 300px;
+    padding: 5px 0px;
+    border-radius: 8px;
+    margin: 20px;
+
+    background-color: var(--character-card-background-color);
+    color: var(--character-card-text-color);
+
+    text-align: center;
+}
