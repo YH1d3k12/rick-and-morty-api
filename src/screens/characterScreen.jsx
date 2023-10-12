@@ -1,10 +1,10 @@
 import React from 'react';
 
+import CharacterCard from '../components/cards';
+
 
 export default function CharacterScreen() {
     return (
-        <div className="characterScreen">
-            <h2>Characters</h2>
-        </div>
+        <CharacterCard></CharacterCard>
     );
 };
